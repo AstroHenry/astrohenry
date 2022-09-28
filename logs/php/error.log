@@ -1,0 +1,10 @@
+[28-Sep-2022 12:59:21 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Owner\Local Sites\astrohenry\app\public\wp-includes\update.php on line 172
+[28-Sep-2022 12:59:21 UTC] PHP Stack trace:
+[28-Sep-2022 12:59:21 UTC] PHP   1. {main}() C:\Users\Owner\Local Sites\astrohenry\app\public\wp-admin\update.php:0
+[28-Sep-2022 12:59:21 UTC] PHP   2. Plugin_Upgrader->install() C:\Users\Owner\Local Sites\astrohenry\app\public\wp-admin\update.php:176
+[28-Sep-2022 12:59:21 UTC] PHP   3. Plugin_Upgrader->run() C:\Users\Owner\Local Sites\astrohenry\app\public\wp-admin\includes\class-plugin-upgrader.php:137
+[28-Sep-2022 12:59:21 UTC] PHP   4. do_action() C:\Users\Owner\Local Sites\astrohenry\app\public\wp-admin\includes\class-wp-upgrader.php:858
+[28-Sep-2022 12:59:21 UTC] PHP   5. WP_Hook->do_action() C:\Users\Owner\Local Sites\astrohenry\app\public\wp-includes\plugin.php:476
+[28-Sep-2022 12:59:21 UTC] PHP   6. WP_Hook->apply_filters() C:\Users\Owner\Local Sites\astrohenry\app\public\wp-includes\class-wp-hook.php:331
+[28-Sep-2022 12:59:21 UTC] PHP   7. wp_version_check() C:\Users\Owner\Local Sites\astrohenry\app\public\wp-includes\class-wp-hook.php:305
+[28-Sep-2022 12:59:21 UTC] PHP   8. trigger_error() C:\Users\Owner\Local Sites\astrohenry\app\public\wp-includes\update.php:172
